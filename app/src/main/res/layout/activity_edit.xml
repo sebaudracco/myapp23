@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <LinearLayout
+        android:orientation="1"
+        android:id="@ref/0x7f0c0064"
+        android:layout_width="-1"
+        android:layout_height="-2">
+
+        <include
+            android:id="@ref/0x7f0c0065"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <include
+        android:layout_width="-2"
+        android:layout_height="-2"
+        layout="@layout/banner_adview" />
+
+    <ScrollView
+        android:background="rgb8(0xffffffff)"
+        android:padding="dimension(513)"
+        android:layout_width="-1"
+        android:layout_height="-1">
+
+        <TableLayout
+            android:gravity="0x11"
+            android:orientation="1"
+            android:background="@ref/0x7f08004a"
+            android:padding="dimension(257)"
+            android:layout_width="-1"
+            android:layout_height="-1">
+
+            <LinearLayout
+                android:background="@ref/0x7f08004b"
+                android:padding="dimension(513)"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:weightSum="1073741824.000000"
+                style="@style/StyleTableRow">
+
+                <mobilemerit.com.contactmanagement.RoundedImageView
+                    android:id="@ref/0x7f0c0066"
+                    android:padding="dimension(513)"
+                    android:focusable="false"
+                    android:layout_width="dimension(14337)"
+                    android:layout_height="dimension(14337)"
+                    android:layout_marginLeft="dimension(1281)"
+                    android:layout_marginTop="dimension(2561)"
+                    android:src="@ref/0x7f020073" />
+
+                <EditText
+                    android:textColor="rgb8(0xff383838)"
+                    android:id="@ref/0x7f0c0067"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_marginLeft="dimension(2561)"
+                    android:layout_marginTop="dimension(5121)"
+                    android:layout_weight="1073741824.000000"
+                    android:inputType="0x6001" />
+            </LinearLayout>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0068"
+                    android:src="@ref/0x7f020068"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0069"
+                    android:text="Mobile No."
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c006a"
+                    android:maxLength="10"
+                    android:inputType="0x2"
+                    style="@style/StyleEditText" />
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c006b"
+                    android:src="@ref/0x7f020067"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c006c"
+                    android:text="Telephone"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c006d"
+                    android:maxLength="10"
+                    android:inputType="0x2"
+                    style="@style/StyleEditText" />
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c006e"
+                    android:src="@ref/0x7f02005f"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c006f"
+                    android:text="Email"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0070"
+                    android:inputType="0x1"
+                    style="@style/StyleEditText" />
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0071"
+                    android:src="@ref/0x7f02003c"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0072"
+                    android:text="Address"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0073"
+                    android:inputType="0x1"
+                    style="@style/StyleEditText" />
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0074"
+                    android:src="@ref/0x7f02005b"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0075"
+                    android:text="Country"
+                    style="@style/StyleTextView" />
+
+                <LinearLayout
+                    android:background="@ref/0x7f08004b"
+                    android:layout_width="-2"
+                    android:layout_height="@ref/0x7f0b0044"
+                    android:layout_weight="1077936128.000000">
+
+                    <Spinner
+                        android:entries="@ref/0x7f0d0000"
+                        android:id="@ref/0x7f0c0076"
+                        android:layout_width="-2"
+                        android:layout_height="@ref/0x7f0b0044" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0077"
+                    android:src="@ref/0x7f02006f"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0078"
+                    android:text="State"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0079"
+                    android:inputType="0x1"
+                    style="@style/StyleEditText" />
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c007a"
+                    android:src="@ref/0x7f02006f"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c007b"
+                    android:text="City"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c007c"
+                    android:inputType="0x1"
+                    style="@style/StyleEditText" />
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c007d"
+                    android:src="@ref/0x7f02005a"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c007e"
+                    android:text="Company Name"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c007f"
+                    android:inputType="0x1"
+                    style="@style/StyleEditText" />
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0080"
+                    android:src="@ref/0x7f020074"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0081"
+                    android:text="Website Url"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0082"
+                    android:inputType="0x1"
+                    style="@style/StyleEditText" />
+            </TableRow>
+
+            <TableRow
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0083"
+                    android:src="@ref/0x7f02003e"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0084"
+                    android:text="Category Type"
+                    style="@style/StyleTextView" />
+
+                <LinearLayout
+                    android:background="@ref/0x7f08004b"
+                    android:layout_width="-2"
+                    android:layout_height="@ref/0x7f0b0044"
+                    android:layout_weight="1077936128.000000">
+
+                    <Spinner
+                        android:entries="@ref/0x7f0d0001"
+                        android:id="@ref/0x7f0c0085"
+                        android:layout_width="-2"
+                        android:layout_height="@ref/0x7f0b0044" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

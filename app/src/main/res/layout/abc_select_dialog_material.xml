@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@ref/0x7f0c0063"
+    android:paddingTop="@ref/0x7f0b001e"
+    android:paddingBottom="@ref/0x7f0b001e"
+    android:scrollbars="0x200"
+    android:fadingEdge="0x0"
+    android:clipToPadding="false"
+    android:layout_width="-1"
+    android:layout_height="-1"
+    android:cacheColorHint="@ref/0x00000000"
+    android:divider="@attr/0x7f010053"
+    android:overScrollMode="1"
+    style="@style/Widget.AppCompat.ListView" />

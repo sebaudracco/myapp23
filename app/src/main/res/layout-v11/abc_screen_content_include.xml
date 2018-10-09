@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.internal.widget.NativeActionModeAwareLayout
+        android:id="@ref/0x7f0c0003"
+        android:layout_width="-1"
+        android:layout_height="-1"
+        android:foreground="@attr/0x1010059"
+        android:foregroundGravity="0x37">
+
+    </android.support.v7.internal.widget.NativeActionModeAwareLayout>
+</merge>

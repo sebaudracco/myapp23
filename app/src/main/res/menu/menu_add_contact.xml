@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@ref/0x7f02006c"
+        android:id="@ref/0x7f0c009b"
+        android:orderInCategory="100"
+        android:title="Save"
+        app:showAsAction="0x2" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:color="@ref/0x7f08001b"
+        android:state_accelerated="false" />
+
+    <item
+        android:color="@ref/0x0106000d" />
+</selector>

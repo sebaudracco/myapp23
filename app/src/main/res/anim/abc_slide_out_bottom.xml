@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0005"
+    android:duration="@ref/0x010e0001"
+    android:fromYDelta="0.000000"
+    android:toYDelta="fraction(1073741873)" />

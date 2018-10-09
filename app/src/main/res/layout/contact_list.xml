@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="0"
+    android:padding="dimension(2561)"
+    android:layout_width="-1"
+    android:layout_height="-2">
+
+    <mobilemerit.com.contactmanagement.RoundedImageView
+        android:id="@ref/0x7f0c0098"
+        android:background="@ref/0x7f020073"
+        android:padding="dimension(513)"
+        android:focusable="false"
+        android:layout_width="dimension(12289)"
+        android:layout_height="dimension(12289)" />
+
+    <LinearLayout
+        android:orientation="1"
+        android:id="@ref/0x7f0c0099"
+        android:layout_width="dimension(1)"
+        android:layout_height="-2"
+        android:layout_marginLeft="dimension(2561)"
+        android:layout_weight="1065353216.000000">
+
+        <TextView
+            android:textSize="dimension(4097)"
+            android:textStyle="0x0"
+            android:textColor="@ref/0x7f08004f"
+            android:id="@ref/0x7f0c009a"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(3073)"
+            android:text="Title"
+            android:singleLine="true"
+            style="@android:style/TextAppearance.Medium" />
+    </LinearLayout>
+</LinearLayout>

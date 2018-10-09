@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="0"
+    android:id="@ref/0x7f0c0058"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <TextView
+        android:textAppearance="@attr/0x1010041"
+        android:textColor="@attr/0x1010036"
+        android:gravity="0x10"
+        android:id="@ref/0x7f0c0059"
+        android:visibility="2"
+        android:layout_width="-2"
+        android:layout_height="-1"
+        android:layout_marginBottom="dimension(513)"
+        android:drawablePadding="dimension(1)" />
+
+    <android.support.v7.internal.widget.TintImageView
+        android:layout_gravity="0x10"
+        android:id="@ref/0x7f0c005a"
+        android:focusable="true"
+        android:layout_width="-2"
+        android:layout_height="-1"
+        android:contentDescription="@ref/0x7f07002d"
+        style="?attr/actionButtonStyle" />
+
+    <LinearLayout
+        android:layout_gravity="0x10"
+        android:orientation="0"
+        android:id="@ref/0x7f0c005b"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_marginLeft="dimension(2049)"
+        android:layout_marginTop="dimension(1025)"
+        android:layout_marginRight="dimension(2049)"
+        android:layout_marginBottom="dimension(1025)"
+        android:layout_weight="1065353216.000000"
+        android:layoutDirection="3">
+
+        <android.support.v7.internal.widget.TintImageView
+            android:layout_gravity="0x10"
+            android:id="@ref/0x7f0c005c"
+            android:visibility="2"
+            android:layout_width="@ref/0x7f0b000b"
+            android:layout_height="-2"
+            android:scaleType="7"
+            style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon" />
+
+        <LinearLayout
+            android:layout_gravity="0x10"
+            android:orientation="0"
+            android:id="@ref/0x7f0c005d"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_weight="1065353216.000000">
+
+            <view
+                android:ellipsize="3"
+                android:layout_gravity="0x50"
+                android:id="@ref/0x7f0c005e"
+                android:background="@ref/0x00000000"
+                android:paddingLeft="@ref/0x7f0b0009"
+                android:paddingRight="@ref/0x7f0b000a"
+                android:layout_width="dimension(1)"
+                android:layout_height="dimension(9217)"
+                android:minWidth="@ref/0x7f0b0007"
+                android:singleLine="true"
+                android:layout_weight="1065353216.000000"
+                android:inputType="0x90001"
+                android:dropDownAnchor="@ref/0x7f0c005b"
+                android:imeOptions="0x3"
+                android:dropDownHeight="-2"
+                android:dropDownHorizontalOffset="dimension(1)"
+                android:dropDownVerticalOffset="dimension(1)"
+                class="android.support.v7.widget.SearchView$SearchAutoComplete" />
+
+            <android.support.v7.internal.widget.TintImageView
+                android:layout_gravity="0x10"
+                android:id="@ref/0x7f0c005f"
+                android:background="@attr/0x7f01005c"
+                android:paddingLeft="dimension(2049)"
+                android:paddingRight="dimension(2049)"
+                android:focusable="true"
+                android:layout_width="-2"
+                android:layout_height="-1"
+                android:contentDescription="@ref/0x7f070030" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="0"
+            android:id="@ref/0x7f0c0060"
+            android:layout_width="-2"
+            android:layout_height="-1">
+
+            <android.support.v7.internal.widget.TintImageView
+                android:layout_gravity="0x10"
+                android:id="@ref/0x7f0c0061"
+                android:background="@attr/0x7f01005c"
+                android:paddingLeft="dimension(4097)"
+                android:paddingRight="dimension(4097)"
+                android:focusable="true"
+                android:visibility="2"
+                android:layout_width="-2"
+                android:layout_height="-1"
+                android:contentDescription="@ref/0x7f070031" />
+
+            <android.support.v7.internal.widget.TintImageView
+                android:layout_gravity="0x10"
+                android:id="@ref/0x7f0c0062"
+                android:background="@attr/0x7f01005c"
+                android:paddingLeft="dimension(4097)"
+                android:paddingRight="dimension(4097)"
+                android:focusable="true"
+                android:visibility="2"
+                android:layout_width="-2"
+                android:layout_height="-1"
+                android:contentDescription="@ref/0x7f070032" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="-1"
+    android:layout_height="dimension(14849)"
+    style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown">
+
+    <android.support.v7.internal.widget.TintImageView
+        android:id="@ref/0x01020007"
+        android:visibility="1"
+        android:layout_width="@ref/0x7f0b000b"
+        android:layout_height="dimension(12289)"
+        android:scaleType="7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" />
+
+    <android.support.v7.internal.widget.TintImageView
+        android:id="@ref/0x7f0c0057"
+        android:background="@attr/0x7f01005b"
+        android:visibility="2"
+        android:layout_width="dimension(12289)"
+        android:layout_height="dimension(12289)"
+        android:scaleType="7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Query" />
+
+    <android.support.v7.internal.widget.TintImageView
+        android:id="@ref/0x01020008"
+        android:visibility="2"
+        android:layout_width="dimension(12289)"
+        android:layout_height="dimension(12289)"
+        android:scaleType="7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" />
+
+    <TextView
+        android:textAppearance="@attr/0x7f010067"
+        android:gravity="0x30"
+        android:id="@ref/0x01020015"
+        android:paddingBottom="dimension(1025)"
+        android:visibility="2"
+        android:layout_width="-1"
+        android:layout_height="dimension(7425)"
+        android:singleLine="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        style="?android:attr/dropDownItemStyle" />
+
+    <TextView
+        android:textAppearance="@attr/0x7f010066"
+        android:id="@ref/0x01020014"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:singleLine="true"
+        android:layout_above="@ref/0x01020015"
+        android:layout_centerVertical="true"
+        style="?android:attr/dropDownItemStyle" />
+</RelativeLayout>

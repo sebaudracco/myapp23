@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1"
+    android:id="@ref/0x7f0c0042"
+    android:layout_width="-1"
+    android:layout_height="-2">
+
+    <LinearLayout
+        android:orientation="1"
+        android:id="@ref/0x7f0c0043"
+        android:layout_width="-1"
+        android:layout_height="-2">
+
+        <LinearLayout
+            android:gravity="0x800013"
+            android:orientation="0"
+            android:id="@ref/0x7f0c0044"
+            android:paddingLeft="@attr/0x7f010052"
+            android:paddingTop="@ref/0x7f0b001c"
+            android:paddingRight="@attr/0x7f010052"
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+            <ImageView
+                android:id="@ref/0x01020006"
+                android:layout_width="dimension(8193)"
+                android:layout_height="dimension(8193)"
+                android:src="@ref/0x00000000"
+                android:scaleType="3" />
+
+            <android.support.v7.internal.widget.DialogTitle
+                android:ellipsize="3"
+                android:id="@ref/0x7f0c0045"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:singleLine="true"
+                style="?attr/android:windowTitleStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@ref/0x7f0c0046"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:minHeight="dimension(12289)"
+        android:layout_weight="1065353216.000000">
+
+        <ScrollView
+            android:id="@ref/0x7f0c0047"
+            android:clipToPadding="false"
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+            <LinearLayout
+                android:orientation="1"
+                android:layout_width="-1"
+                android:layout_height="-2">
+
+                <TextView
+                    android:id="@ref/0x0102000b"
+                    android:paddingLeft="@attr/0x7f010052"
+                    android:paddingTop="@ref/0x7f0b001c"
+                    android:paddingRight="@attr/0x7f010052"
+                    android:layout_width="-1"
+                    android:layout_height="-2"
+                    style="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:id="@ref/0x7f0c0048"
+                    android:visibility="2"
+                    android:layout_width="dimension(1)"
+                    android:layout_height="@ref/0x7f0b001c" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <!--suppress AndroidDomInspection -->
+    <FrameLayout
+        android:id="@ref/0x7f0c0049"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:minHeight="dimension(12289)"
+        android:layout_weight="1065353216.000000">
+
+        <FrameLayout
+            android:id="@ref/0x7f0c004a"
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:gravity="0x50"
+        android:orientation="0"
+        android:id="@ref/0x7f0c004b"
+        android:paddingLeft="dimension(3073)"
+        android:paddingTop="dimension(2049)"
+        android:paddingRight="dimension(3073)"
+        android:paddingBottom="dimension(2049)"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        style="?attr/buttonBarStyle">
+
+        <Button
+            android:id="@ref/0x0102001b"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            style="?attr/buttonBarNeutralButtonStyle" />
+
+        <android.support.v4.widget.Space
+            android:visibility="1"
+            android:layout_width="dimension(1)"
+            android:layout_height="dimension(1)"
+            android:layout_weight="1065353216.000000" />
+
+        <Button
+            android:id="@ref/0x0102001a"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            style="?attr/buttonBarNegativeButtonStyle" />
+
+        <Button
+            android:id="@ref/0x01020019"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            style="?attr/buttonBarPositiveButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

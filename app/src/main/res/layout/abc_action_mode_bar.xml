@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.ActionBarContextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@attr/0x7f01003b"
+    android:visibility="2"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    style="?attr/actionModeStyle" />

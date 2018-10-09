@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="1"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@ref/0x7f0c0097"
+        android:visibility="0"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@ref/0x7f07003a" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:background="#58FAF4"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@ref/0x7f0c0065"
+        android:background="@attr/0x7f010077"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:minHeight="@attr/0x7f01003d"
+        local:popupTheme="@ref/0x7f0600f5"
+        local:theme="@ref/0x7f0600f8">
+
+        <Spinner
+            android:gravity="0x50"
+            android:entries="@ref/0x7f0d0002"
+            android:id="@ref/0x7f0c0093"
+            android:visibility="2"
+            android:layout_width="-2"
+            android:layout_height="-2" />
+    </android.support.v7.widget.Toolbar>
+
+    <include
+        android:layout_width="-2"
+        android:layout_height="-2"
+        layout="@layout/banner_adview" />
+
+    <ListView
+        android:id="@ref/0x7f0c0094"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:divider="@ref/0x7f08004e"
+        android:dividerHeight="dimension(257)"
+        android:layout_below="@ref/0x7f0c0065" />
+</LinearLayout>

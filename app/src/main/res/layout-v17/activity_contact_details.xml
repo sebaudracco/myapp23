@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <LinearLayout
+        android:orientation="1"
+        android:id="@ref/0x7f0c0064"
+        android:layout_width="-1"
+        android:layout_height="-2">
+
+        <include
+            android:id="@ref/0x7f0c0065"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <include
+        android:layout_width="-2"
+        android:layout_height="-2"
+        layout="@layout/banner_adview" />
+
+    <ScrollView
+        android:background="rgb8(0xffffffff)"
+        android:padding="dimension(513)"
+        android:layout_width="-1"
+        android:layout_height="-1">
+
+        <TableLayout
+            android:gravity="0x11"
+            android:orientation="1"
+            android:background="@ref/0x7f08004a"
+            android:layout_width="-1"
+            android:layout_height="-1">
+
+            <RelativeLayout
+                android:background="@ref/0x7f02005c"
+                android:layout_width="-1"
+                android:layout_height="dimension(43521)">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0066"
+                    android:padding="dimension(257)"
+                    android:layout_width="-1"
+                    android:layout_height="dimension(43521)"
+                    android:scaleType="6" />
+
+                <TextView
+                    android:textSize="dimension(10242)"
+                    android:textColor="@ref/0x7f08004b"
+                    android:id="@ref/0x7f0c0086"
+                    android:paddingBottom="dimension(10241)"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_marginLeft="dimension(2561)"
+                    android:text="Name"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="dimension(2561)"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <TableRow
+                android:id="@ref/0x7f0c0087"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0068"
+                    android:src="@ref/0x7f020068"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0069"
+                    android:text="Mobile No."
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c006a"
+                    android:inputType="0x2"
+                    style="@style/StyleDetailEditTextSelector" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c0088"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c006b"
+                    android:src="@ref/0x7f020067"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c006c"
+                    android:text="Telephone"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c006d"
+                    android:inputType="0x2"
+                    style="@style/StyleDetailEditTextSelector" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c0089"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c006e"
+                    android:src="@ref/0x7f02005f"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c006f"
+                    android:text="Email"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0070"
+                    android:inputType="0x1"
+                    style="@style/StyleDetailEditTextSelector" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c008a"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0071"
+                    android:src="@ref/0x7f02003c"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0072"
+                    android:text="Address"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0073"
+                    android:inputType="0x1"
+                    style="@style/StyleDetailEditText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c008b"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0074"
+                    android:src="@ref/0x7f02005b"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0075"
+                    android:text="Country"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c008c"
+                    android:inputType="0x1"
+                    style="@style/StyleDetailEditText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c008d"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0077"
+                    android:src="@ref/0x7f02006f"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0078"
+                    android:text="State"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0079"
+                    android:inputType="0x1"
+                    style="@style/StyleDetailEditText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c008e"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c007a"
+                    android:src="@ref/0x7f02006f"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c007b"
+                    android:text="City"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c007c"
+                    android:inputType="0x1"
+                    style="@style/StyleDetailEditText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c008f"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c007d"
+                    android:src="@ref/0x7f02005a"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c007e"
+                    android:text="Company Name"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c007f"
+                    android:inputType="0x1"
+                    style="@style/StyleDetailEditText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c0090"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0080"
+                    android:src="@ref/0x7f020074"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0081"
+                    android:text="Website Url"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0082"
+                    android:inputType="0x1"
+                    style="@style/StyleDetailEditText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@ref/0x7f0c0091"
+                style="@style/StyleTableRow">
+
+                <ImageView
+                    android:id="@ref/0x7f0c0083"
+                    android:src="@ref/0x7f02003e"
+                    style="@style/StyleImageView" />
+
+                <TextView
+                    android:id="@ref/0x7f0c0084"
+                    android:text="Category Type"
+                    style="@style/StyleTextView" />
+
+                <EditText
+                    android:id="@ref/0x7f0c0092"
+                    android:inputType="0x1"
+                    style="@style/StyleDetailEditText" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

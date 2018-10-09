@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="0x10"
+    android:id="@ref/0x7f0c0040"
+    android:duplicateParentState="true"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:layout_marginLeft="dimension(2049)"
+    android:layout_marginTop="dimension(2049)"
+    android:layout_marginRight="dimension(-2047)"
+    android:layout_marginBottom="dimension(2049)"
+    android:scaleType="7" />
